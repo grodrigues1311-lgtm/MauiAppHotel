@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             Background="{StaticResource PrimaryDark}">
+    
+    <VerticalStackLayout Padding="30" Spacing="15"
+                         VerticalOptions="Center">
+        <Label 
+            Text="Sobre o Aplicativo"
+            FontSize="26" FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+        <Label Text="Desenvolvedor: Gabriella Rodrigues" FontSize="20"/>
+        <Label Text="Ano de Desenvolvimento: 2026" FontSize="20"/>
+        <Label Text="Disciplina: Desenvovimento de Sistemas" FontSize="20"/>
+        <Label Text="Versão 1.0" FontSize="20"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>
